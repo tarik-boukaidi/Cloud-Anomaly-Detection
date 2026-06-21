@@ -1,0 +1,34 @@
+CLOUD ANOMALY DETECTION SYSTEM
+
+SCHEMA FINAL
+
+```mermaid
+flowchart LR
+    A[Cloud Logs / Synthetic Logs] --> B[Azure Blob Storage]
+    B --> C[Azure Function Timer]
+    C --> D[Python Pipeline]
+    D --> E[Preprocessing]
+    E --> F[Feature Engineering]
+    F --> G[Isolation Forest Model]
+    G --> H[Anomaly Detection]
+    H --> I[detected_threats.csv]
+    I --> B
+    B --> J[Streamlit Dashboard on Azure]
+    J --> K[Metrics]
+    J --> L[Charts]
+    J --> M[Threat Table]
+```
+
+LECTURE RAPIDE
+
+- Azure Blob Storage centralise les logs et les resultats.
+- Azure Function Timer lance automatiquement le pipeline.
+- Le pipeline Python prepare les donnees et detecte les anomalies.
+- Le dashboard Streamlit lit les resultats depuis Azure et les affiche.
+
+MESSAGE DU PROJET
+
+Cette architecture represente la version finale cloud du projet:
+- donnees stockees dans Azure
+- traitement automatise dans Azure
+- visualisation en ligne avec Streamlit

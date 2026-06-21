@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Azure CLI / local auth cache
+.azure-config/
+.azure/
+
+# Streamlit and editor settings that are local-only
+.vscode/
+
+# Generated outputs
+detected_threats.csv
+downloaded_model.pkl
+cloud_logs.csv
+azure_model.pkl
+model_cache.pkl
+
+# Deployment and log artifacts
+dashboard_deploy.zip
+deploy.zip
+dashboard-logs/
+dashboard-logs-2/
+dashboard-logs-3/
+dashboard-logs-4/
+dashboard-logs.zip
+dashboard-logs-2.zip
+dashboard-logs-3.zip
+dashboard-logs-4.zip
+
+# OS files
+Thumbs.db
+.DS_Store

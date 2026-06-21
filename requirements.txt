@@ -1,0 +1,10 @@
+pandas
+numpy
+scikit-learn
+joblib
+requests
+azure-functions
+streamlit
+plotly
+streamlit-autorefresh
+azure-storage-blob

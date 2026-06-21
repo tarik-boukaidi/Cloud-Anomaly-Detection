@@ -1,0 +1,11 @@
+__pycache__/
+.git/
+.streamlit/
+.vscode/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.csv
+local.settings.json
+*.log

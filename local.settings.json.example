@@ -1,0 +1,14 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "",
+    "FUNCTIONS_WORKER_RUNTIME": "python",
+    "AZURE_STORAGE_CONNECTION_STRING": "",
+    "AZURE_STORAGE_CONTAINER": "logs",
+    "AZURE_MODEL_BLOB": "random_forest_model.pkl",
+    "AZURE_RESULTS_BLOB": "detected_threats.csv",
+    "AZURE_INPUT_BLOB": "",
+    "AZURE_MODEL_URL": "",
+    "USE_AZURE_MODEL": "true"
+  }
+}
